@@ -1,0 +1,54 @@
+#tc-box {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 150px;
+    font-size: 11px;
+    margin: 0 0 10px 0;
+}
+p.error input, p.error select, p.error textarea {
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+p.error>label, p.error .help-block, p.error .help-inline {
+    color: #b94a48;
+}
+
+p.error .checkbox, p.error .radio, p.error input, p.error select, p.error textarea {
+    color: #b94a48;
+}
+
+p.success>label, p.success .help-block, p.success .help-inline {
+    color: #468847;
+}
+
+p.success input, p.success select, p.success textarea {
+    border-color: #468847;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+p.success .checkbox, p.success .radio, p.success input, p.success select, p.success textarea {
+    color: #468847;
+}
+
+#checkout-msg {
+    display: block;
+    clear: both;
+    font-weight: bold;
+}
+
+#checkout-msg.error {
+    color:#b94a48;
+}
+
+span.help-block {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+}

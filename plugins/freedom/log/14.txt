@@ -1,0 +1,656 @@
+=====================
+new log : 2017-09-14 00:28:18 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => 'L12558',
+  'Url' => 'L12558',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Bernie',
+    'LastName' => 'Sanchez',
+    'Email' => 'bhsanchez49@yahoo.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '3077425425',
+    'Street1' => '310 Cleveland St.',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '3077425425',
+    'Street1' => '310 S Cleveland St',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-6516',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '3077425425',
+  ),
+  'IPAddress' => '38.75.208.48',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118442,
+   'CustomerId' => 'R26107701',
+   'TransactionId' => 1092442,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107701',
+  'RepresentativeNumber' => 'L12558',
+  'EmailAddress' => 'bhsanchez49@yahoo.com',
+  'FirstName' => 'Bernie',
+  'LastName' => 'Sanchez',
+  'PhoneNumber' => '(307) 742-5425',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '(307) 742-5425',
+    'Street1' => '310 Cleveland St.',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '(307) 742-5425',
+    'Street1' => '310 S Cleveland St',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-6516',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Bernie',
+    'LastNameOnCard' => 'Sanchez',
+    'CardNumber' => '4112780008178950',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '18',
+    'CVV' => '245',
+    'Address1' => '310 Cleveland St.',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '38.75.208.48',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 99.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 99.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => 'L12558',
+    'EmailAddress' => 'bhsanchez49@yahoo.com',
+    'FirstName' => 'Bernie',
+    'LastName' => 'Sanchez',
+    'PhoneNumber' => '(307) 742-5425',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1YR',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Bernie Sanchez',
+      'Phone' => '(307) 742-5425',
+      'Street1' => '310 Cleveland St.',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Bernie Sanchez',
+      'Phone' => '(307) 742-5425',
+      'Street1' => '310 S Cleveland St',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070-6516',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107701',
+  'RepresentativeNumber' => 'L12558',
+  'EmailAddress' => 'bhsanchez49@yahoo.com',
+  'FirstName' => 'Bernie',
+  'LastName' => 'Sanchez',
+  'PhoneNumber' => '(307) 742-5425',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '(307) 742-5425',
+    'Street1' => '310 Cleveland St.',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '(307) 742-5425',
+    'Street1' => '310 S Cleveland St',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-6516',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Bernie',
+    'LastNameOnCard' => 'Sanchez',
+    'CardNumber' => '4112780008178950',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '18',
+    'CVV' => '245',
+    'Address1' => '310 Cleveland St.',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '38.75.208.48',
+  'PaymentAmount' => '99.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'order response'
+ >> stdClass::__set_state(array(
+   'OrderID' => 14167,
+   'FreedomOrderID' => 27890953,
+   'FreedomOnlineOrderID' => 3615310,
+   'TransactionId' => 1092443,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'Creating autoship profile'
+ >> 'autoship profile request'
+ >> array (
+  'CustomerOrRepNumber' => 'R26107701',
+  'ShipAddress' => 
+  array (
+    'Name' => 'Bernie Sanchez',
+    'Phone' => '(307) 742-5425',
+    'Street1' => '310 S Cleveland St',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-6516',
+  ),
+  'Schedule' => 
+  array (
+    'PeriodTypeID' => 4,
+    'StartDate' => '2017-09-14',
+    'StopDate' => '2067-09-14',
+    'NextShipDate' => '2018-09-14',
+    'PeriodDay' => 1,
+  ),
+  'OverrideShipping' => 0,
+  'ShippingTotal' => '0.00',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'Payment' => 
+  array (
+    'FirstNameOnCard' => 'Bernie',
+    'LastNameOnCard' => 'Sanchez',
+    'CardNumber' => '4112780008178950',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '18',
+    'CVV' => '245',
+    'Address1' => '310 Cleveland St.',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+)
+ >> 'autoship profile result'
+ >> array (
+  0 => 
+  array (
+    'request' => 
+    array (
+      'CustomerOrRepNumber' => 'R26107701',
+      'ShipAddress' => 
+      array (
+        'Name' => 'Bernie Sanchez',
+        'Phone' => '(307) 742-5425',
+        'Street1' => '310 S Cleveland St',
+        'Street2' => '',
+        'City' => 'Laramie',
+        'State' => 'WY',
+        'Country' => 'USA',
+        'PostalCode' => '82070-6516',
+      ),
+      'Schedule' => 
+      array (
+        'PeriodTypeID' => 4,
+        'StartDate' => '2017-09-14',
+        'StopDate' => '2067-09-14',
+        'NextShipDate' => '2018-09-14',
+        'PeriodDay' => 1,
+      ),
+      'OverrideShipping' => 0,
+      'ShippingTotal' => '0.00',
+      'OrderItems' => 
+      array (
+        0 => 
+        array (
+          'ProductID' => 'YSDPROIDM1YR',
+          'Quantity' => 1,
+        ),
+      ),
+      'Payment' => 
+      array (
+        'FirstNameOnCard' => 'Bernie',
+        'LastNameOnCard' => 'Sanchez',
+        'CardNumber' => '4112780008178950',
+        'ExpiryDateMonth' => '02',
+        'ExpiryDateYear' => '18',
+        'CVV' => '245',
+        'Address1' => '310 Cleveland St.',
+        'Address2' => '',
+        'City' => 'Laramie',
+        'StateProvince' => 'WY',
+        'Country' => 'USA',
+        'PostalCode' => '82070',
+      ),
+    ),
+    'response' => 
+    stdClass::__set_state(array(
+       'ProfileID' => 512023,
+       'TransactionId' => 510229557,
+       'Status' => 'SUCCESS',
+       'ErrorMessage' => NULL,
+       'StatusCode' => 'OK',
+       'Message' => NULL,
+    )),
+  ),
+)
+ >> 'Order response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'OrderID' => 14167,
+     'FreedomOrderID' => 27890953,
+     'FreedomOnlineOrderID' => 3615310,
+     'TransactionId' => 1092443,
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'StatusCode' => 'OK',
+     'Message' => NULL,
+  )),
+  'request' => 
+  array (
+    'RetailOrder' => false,
+    'CustomerID' => 'R26107701',
+    'RepresentativeNumber' => 'L12558',
+    'EmailAddress' => 'bhsanchez49@yahoo.com',
+    'FirstName' => 'Bernie',
+    'LastName' => 'Sanchez',
+    'PhoneNumber' => '(307) 742-5425',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1YR',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Bernie Sanchez',
+      'Phone' => '(307) 742-5425',
+      'Street1' => '310 Cleveland St.',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Bernie Sanchez',
+      'Phone' => '(307) 742-5425',
+      'Street1' => '310 S Cleveland St',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070-6516',
+    ),
+    'PaymentInfo' => 
+    array (
+      'FirstNameOnCard' => 'Bernie',
+      'LastNameOnCard' => 'Sanchez',
+      'CardNumber' => '4112780008178950',
+      'ExpiryDateMonth' => '02',
+      'ExpiryDateYear' => '18',
+      'CVV' => '245',
+      'Address1' => '310 Cleveland St.',
+      'Address2' => '',
+      'City' => 'Laramie',
+      'StateProvince' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'InvoiceNotes' => 'Sales Order',
+    'IPAddress' => '38.75.208.48',
+    'PaymentAmount' => '99.99',
+    'OverrideShipping' => 1,
+    'ShippingTotal' => '0.00',
+    'ShipMethodID' => 2,
+  ),
+  'autoshipresponse' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107701',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Bernie Sanchez',
+          'Phone' => '(307) 742-5425',
+          'Street1' => '310 S Cleveland St',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-6516',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-14',
+          'StopDate' => '2067-09-14',
+          'NextShipDate' => '2018-09-14',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Bernie',
+          'LastNameOnCard' => 'Sanchez',
+          'CardNumber' => '4112780008178950',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '18',
+          'CVV' => '245',
+          'Address1' => '310 Cleveland St.',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512023,
+         'TransactionId' => 510229557,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Freedom Result'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '99.99',
+  'CustomerID' => 'R26107701',
+  'OrderID' => 14167,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107701',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Bernie Sanchez',
+          'Phone' => '(307) 742-5425',
+          'Street1' => '310 S Cleveland St',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-6516',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-14',
+          'StopDate' => '2067-09-14',
+          'NextShipDate' => '2018-09-14',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Bernie',
+          'LastNameOnCard' => 'Sanchez',
+          'CardNumber' => '4112780008178950',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '18',
+          'CVV' => '245',
+          'Address1' => '310 Cleveland St.',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512023,
+         'TransactionId' => 510229557,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Trigger hook for other freedom attached plugins like ocenture'
+ >> 'Freedom Result after hook'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '99.99',
+  'CustomerID' => 'R26107701',
+  'OrderID' => 14167,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107701',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Bernie Sanchez',
+          'Phone' => '(307) 742-5425',
+          'Street1' => '310 S Cleveland St',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-6516',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-14',
+          'StopDate' => '2067-09-14',
+          'NextShipDate' => '2018-09-14',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Bernie',
+          'LastNameOnCard' => 'Sanchez',
+          'CardNumber' => '4112780008178950',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '18',
+          'CVV' => '245',
+          'Address1' => '310 Cleveland St.',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512023,
+         'TransactionId' => 510229557,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+  'plugin' => 
+  array (
+    'ocenture' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'Status' => 'Account Created',
+         'ClientMemberID' => 'R26107701',
+         'MembershipID' => 215864582,
+         'ProductCode' => 'YP8389',
+      )),
+    ),
+  ),
+)
+=====================
+ Log Closed 
+=====================

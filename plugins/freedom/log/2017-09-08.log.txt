@@ -1,0 +1,1336 @@
+
+=====================
+new log : 2017-09-08 05:54:40 
+================
+'customer request'array (
+  'RepresentativeNumber' => 'E100129',
+  'Url' => 'E100129',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'Email' => 'tofeeq3@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '1234567890',
+  ),
+  'IPAddress' => '::1',
+)'live request''customer response'stdClass::__set_state(array(
+   'OnlineCustomerId' => 117797,
+   'CustomerId' => 'R26106609',
+   'TransactionId' => 1068643,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))'customer created''shipping request'array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26106609',
+  'RepresentativeNumber' => 'E100129',
+  'EmailAddress' => 'tofeeq3@gmail.com',
+  'FirstName' => 'TEST',
+  'LastName' => 'Murray',
+  'PhoneNumber' => '1234567890',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '::1',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)'shipping response'array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0.0,
+       'TaxTotal' => 0.0,
+       'HandlingFee' => 0.0,
+       'OrderTotal' => 9.9900000000000002131628207280300557613372802734375,
+       'CreditUsed' => 0.0,
+       'BalanceDue' => 9.9900000000000002131628207280300557613372802734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => 'E100129',
+    'EmailAddress' => 'tofeeq3@gmail.com',
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'PhoneNumber' => '1234567890',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)'shipping response success''order request'array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26106609',
+  'RepresentativeNumber' => 'E100129',
+  'EmailAddress' => 'tofeeq3@gmail.com',
+  'FirstName' => 'TEST',
+  'LastName' => 'Murray',
+  'PhoneNumber' => '1234567890',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '::1',
+  'PaymentAmount' => '9.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)'order response'stdClass::__set_state(array(
+   'OrderID' => 14021,
+   'FreedomOrderID' => 27639366,
+   'FreedomOnlineOrderID' => 3457575,
+   'TransactionId' => 1068645,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))'Creating autoship profile''autoship profile request'array (
+  'CustomerOrRepNumber' => 'R26106609',
+  'ShipAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'Schedule' => 
+  array (
+    'PeriodTypeID' => 1,
+    'StartDate' => '2017-09-08',
+    'StopDate' => '2067-09-08',
+    'NextShipDate' => '2017-10-08',
+    'PeriodDay' => 1,
+  ),
+  'OverrideShipping' => 0,
+  'ShippingTotal' => '0.00',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'Payment' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+)'autoship profile result'array (
+  0 => 
+  array (
+    'request' => 
+    array (
+      'CustomerOrRepNumber' => 'R26106609',
+      'ShipAddress' => 
+      array (
+        'Name' => 'TEST Murray',
+        'Phone' => '1234567890',
+        'Street1' => '611 E Balboa Blvd',
+        'Street2' => '',
+        'City' => 'Newport Coast',
+        'State' => 'CA',
+        'Country' => 'USA',
+        'PostalCode' => '92661-0242',
+      ),
+      'Schedule' => 
+      array (
+        'PeriodTypeID' => 1,
+        'StartDate' => '2017-09-08',
+        'StopDate' => '2067-09-08',
+        'NextShipDate' => '2017-10-08',
+        'PeriodDay' => 1,
+      ),
+      'OverrideShipping' => 0,
+      'ShippingTotal' => '0.00',
+      'OrderItems' => 
+      array (
+        0 => 
+        array (
+          'ProductID' => 'YSDPROIDM1MO',
+          'Quantity' => 1,
+        ),
+      ),
+      'Payment' => 
+      array (
+        'FirstNameOnCard' => 'TEST',
+        'LastNameOnCard' => 'Murray',
+        'CardNumber' => '4242424242424242',
+        'ExpiryDateMonth' => '12',
+        'ExpiryDateYear' => '2018',
+        'CVV' => '123',
+        'Address1' => '611 E Balboa Blvd',
+        'Address2' => '',
+        'City' => 'Newport Coast',
+        'StateProvince' => 'CA',
+        'Country' => 'USA',
+        'PostalCode' => '92661-0242',
+      ),
+    ),
+    'response' => 
+    stdClass::__set_state(array(
+       'ProfileID' => 492047,
+       'TransactionId' => 462666440,
+       'Status' => 'SUCCESS',
+       'ErrorMessage' => NULL,
+       'StatusCode' => 'OK',
+       'Message' => NULL,
+    )),
+  ),
+)'Order response'array (
+  'response' => 
+  stdClass::__set_state(array(
+     'OrderID' => 14021,
+     'FreedomOrderID' => 27639366,
+     'FreedomOnlineOrderID' => 3457575,
+     'TransactionId' => 1068645,
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'StatusCode' => 'OK',
+     'Message' => NULL,
+  )),
+  'request' => 
+  array (
+    'RetailOrder' => false,
+    'CustomerID' => 'R26106609',
+    'RepresentativeNumber' => 'E100129',
+    'EmailAddress' => 'tofeeq3@gmail.com',
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'PhoneNumber' => '1234567890',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'PaymentInfo' => 
+    array (
+      'FirstNameOnCard' => 'TEST',
+      'LastNameOnCard' => 'Murray',
+      'CardNumber' => '4242424242424242',
+      'ExpiryDateMonth' => '12',
+      'ExpiryDateYear' => '2018',
+      'CVV' => '123',
+      'Address1' => '611 E Balboa Blvd',
+      'Address2' => '',
+      'City' => 'Newport Coast',
+      'StateProvince' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'InvoiceNotes' => 'Sales Order',
+    'IPAddress' => '::1',
+    'PaymentAmount' => '9.99',
+    'OverrideShipping' => 1,
+    'ShippingTotal' => '0.00',
+    'ShipMethodID' => 2,
+  ),
+  'autoshipresponse' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106609',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492047,
+         'TransactionId' => 462666440,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)'Freedom Result'array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '9.99',
+  'CustomerID' => 'R26106609',
+  'OrderID' => 14021,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106609',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492047,
+         'TransactionId' => 462666440,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)'Trigger hook for other freedom attached plugins like ocenture''Freedom Result after hook'array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '9.99',
+  'CustomerID' => 'R26106609',
+  'OrderID' => 14021,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106609',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492047,
+         'TransactionId' => 462666440,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+  'plugin' => 
+  array (
+    'ocenture' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'Status' => 'Account Created',
+         'ClientMemberID' => 'R26106609',
+         'MembershipID' => 111854012,
+         'ProductCode' => 'YP8381',
+      )),
+    ),
+  ),
+)
+=====================
+ Log Closed 
+=====================
+new log : 2017-09-08 05:58:22 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => 'E100129',
+  'Url' => 'E100129',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'Email' => 'tofeeq3@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '1234567890',
+  ),
+  'IPAddress' => '::1',
+)
+ >> 'live request'
+ >> 'Exception'
+ >> NULL
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-08 05:59:45 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => 'E100129',
+  'Url' => 'E100129',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'Email' => 'tofeeq3@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '1234567890',
+  ),
+  'IPAddress' => '::1',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 117800,
+   'CustomerId' => 'R26106610',
+   'TransactionId' => 1068653,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26106610',
+  'RepresentativeNumber' => 'E100129',
+  'EmailAddress' => 'tofeeq3@gmail.com',
+  'FirstName' => 'TEST',
+  'LastName' => 'Murray',
+  'PhoneNumber' => '1234567890',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '::1',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0.0,
+       'TaxTotal' => 0.0,
+       'HandlingFee' => 0.0,
+       'OrderTotal' => 9.9900000000000002131628207280300557613372802734375,
+       'CreditUsed' => 0.0,
+       'BalanceDue' => 9.9900000000000002131628207280300557613372802734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => 'E100129',
+    'EmailAddress' => 'tofeeq3@gmail.com',
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'PhoneNumber' => '1234567890',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26106610',
+  'RepresentativeNumber' => 'E100129',
+  'EmailAddress' => 'tofeeq3@gmail.com',
+  'FirstName' => 'TEST',
+  'LastName' => 'Murray',
+  'PhoneNumber' => '1234567890',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '::1',
+  'PaymentAmount' => '9.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'order response'
+ >> stdClass::__set_state(array(
+   'OrderID' => 14022,
+   'FreedomOrderID' => 27639367,
+   'FreedomOnlineOrderID' => 3457578,
+   'TransactionId' => 1068654,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'Creating autoship profile'
+ >> 'autoship profile request'
+ >> array (
+  'CustomerOrRepNumber' => 'R26106610',
+  'ShipAddress' => 
+  array (
+    'Name' => 'TEST Murray',
+    'Phone' => '1234567890',
+    'Street1' => '611 E Balboa Blvd',
+    'Street2' => '',
+    'City' => 'Newport Coast',
+    'State' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+  'Schedule' => 
+  array (
+    'PeriodTypeID' => 1,
+    'StartDate' => '2017-09-08',
+    'StopDate' => '2067-09-08',
+    'NextShipDate' => '2017-10-08',
+    'PeriodDay' => 1,
+  ),
+  'OverrideShipping' => 0,
+  'ShippingTotal' => '0.00',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'Payment' => 
+  array (
+    'FirstNameOnCard' => 'TEST',
+    'LastNameOnCard' => 'Murray',
+    'CardNumber' => '4242424242424242',
+    'ExpiryDateMonth' => '12',
+    'ExpiryDateYear' => '2018',
+    'CVV' => '123',
+    'Address1' => '611 E Balboa Blvd',
+    'Address2' => '',
+    'City' => 'Newport Coast',
+    'StateProvince' => 'CA',
+    'Country' => 'USA',
+    'PostalCode' => '92661-0242',
+  ),
+)
+ >> 'autoship profile result'
+ >> array (
+  0 => 
+  array (
+    'request' => 
+    array (
+      'CustomerOrRepNumber' => 'R26106610',
+      'ShipAddress' => 
+      array (
+        'Name' => 'TEST Murray',
+        'Phone' => '1234567890',
+        'Street1' => '611 E Balboa Blvd',
+        'Street2' => '',
+        'City' => 'Newport Coast',
+        'State' => 'CA',
+        'Country' => 'USA',
+        'PostalCode' => '92661-0242',
+      ),
+      'Schedule' => 
+      array (
+        'PeriodTypeID' => 1,
+        'StartDate' => '2017-09-08',
+        'StopDate' => '2067-09-08',
+        'NextShipDate' => '2017-10-08',
+        'PeriodDay' => 1,
+      ),
+      'OverrideShipping' => 0,
+      'ShippingTotal' => '0.00',
+      'OrderItems' => 
+      array (
+        0 => 
+        array (
+          'ProductID' => 'YSDPROIDM1MO',
+          'Quantity' => 1,
+        ),
+      ),
+      'Payment' => 
+      array (
+        'FirstNameOnCard' => 'TEST',
+        'LastNameOnCard' => 'Murray',
+        'CardNumber' => '4242424242424242',
+        'ExpiryDateMonth' => '12',
+        'ExpiryDateYear' => '2018',
+        'CVV' => '123',
+        'Address1' => '611 E Balboa Blvd',
+        'Address2' => '',
+        'City' => 'Newport Coast',
+        'StateProvince' => 'CA',
+        'Country' => 'USA',
+        'PostalCode' => '92661-0242',
+      ),
+    ),
+    'response' => 
+    stdClass::__set_state(array(
+       'ProfileID' => 492048,
+       'TransactionId' => 462666516,
+       'Status' => 'SUCCESS',
+       'ErrorMessage' => NULL,
+       'StatusCode' => 'OK',
+       'Message' => NULL,
+    )),
+  ),
+)
+ >> 'Order response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'OrderID' => 14022,
+     'FreedomOrderID' => 27639367,
+     'FreedomOnlineOrderID' => 3457578,
+     'TransactionId' => 1068654,
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'StatusCode' => 'OK',
+     'Message' => NULL,
+  )),
+  'request' => 
+  array (
+    'RetailOrder' => false,
+    'CustomerID' => 'R26106610',
+    'RepresentativeNumber' => 'E100129',
+    'EmailAddress' => 'tofeeq3@gmail.com',
+    'FirstName' => 'TEST',
+    'LastName' => 'Murray',
+    'PhoneNumber' => '1234567890',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'TEST Murray',
+      'Phone' => '1234567890',
+      'Street1' => '611 E Balboa Blvd',
+      'Street2' => '',
+      'City' => 'Newport Coast',
+      'State' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'PaymentInfo' => 
+    array (
+      'FirstNameOnCard' => 'TEST',
+      'LastNameOnCard' => 'Murray',
+      'CardNumber' => '4242424242424242',
+      'ExpiryDateMonth' => '12',
+      'ExpiryDateYear' => '2018',
+      'CVV' => '123',
+      'Address1' => '611 E Balboa Blvd',
+      'Address2' => '',
+      'City' => 'Newport Coast',
+      'StateProvince' => 'CA',
+      'Country' => 'USA',
+      'PostalCode' => '92661-0242',
+    ),
+    'InvoiceNotes' => 'Sales Order',
+    'IPAddress' => '::1',
+    'PaymentAmount' => '9.99',
+    'OverrideShipping' => 1,
+    'ShippingTotal' => '0.00',
+    'ShipMethodID' => 2,
+  ),
+  'autoshipresponse' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106610',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492048,
+         'TransactionId' => 462666516,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Freedom Result'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '9.99',
+  'CustomerID' => 'R26106610',
+  'OrderID' => 14022,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106610',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492048,
+         'TransactionId' => 462666516,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Trigger hook for other freedom attached plugins like ocenture'
+ >> 'Freedom Result after hook'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '9.99',
+  'CustomerID' => 'R26106610',
+  'OrderID' => 14022,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26106610',
+        'ShipAddress' => 
+        array (
+          'Name' => 'TEST Murray',
+          'Phone' => '1234567890',
+          'Street1' => '611 E Balboa Blvd',
+          'Street2' => '',
+          'City' => 'Newport Coast',
+          'State' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-08',
+          'StopDate' => '2067-09-08',
+          'NextShipDate' => '2017-10-08',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'TEST',
+          'LastNameOnCard' => 'Murray',
+          'CardNumber' => '4242424242424242',
+          'ExpiryDateMonth' => '12',
+          'ExpiryDateYear' => '2018',
+          'CVV' => '123',
+          'Address1' => '611 E Balboa Blvd',
+          'Address2' => '',
+          'City' => 'Newport Coast',
+          'StateProvince' => 'CA',
+          'Country' => 'USA',
+          'PostalCode' => '92661-0242',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 492048,
+         'TransactionId' => 462666516,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+  'plugin' => 
+  array (
+    'ocenture' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'Status' => 'Account Created',
+         'ClientMemberID' => 'R26106610',
+         'MembershipID' => 111854013,
+         'ProductCode' => 'YP8381',
+      )),
+    ),
+  ),
+)
+=====================
+ Log Closed 
+=====================

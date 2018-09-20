@@ -1,0 +1,53 @@
+{
+    "RetailOrder": false,
+    "CustomerID": "0",
+    "RepresentativeNumber": "100769937",
+    "EmailAddress": "bwayne@youngevity.com",
+    "FirstName": "Clark",
+    "LastName": "Kent",
+    "PhoneNumber": "123456789",
+    "ReferenceNumber": "1343",
+    "OrderItems": [{
+        "ProductID": "USYG100086",
+        "Quantity": 15
+    }],
+    "BillingAddress": {
+        "Name": "MyBill",
+        "Street1": "502 Madisons Way",
+        "Street2": "",
+        "City": "Cedar Park",
+        "State": "TX",
+        "Country": "USA",
+        "PostalCode": "78613-4032"
+    },
+    "ShippingAddress": {
+        "Name": "MyShip",
+        "Street1": "502 Madisons Way",
+        "Street2": "",
+        "City": "Cedar Park",
+        "State": "TX",
+        "Country": "USA",
+        "PostalCode": "78613-4032"
+    },
+    "PaymentInfo": {
+        "FirstNameOnCard": "Bruce",
+        "LastNameOnCard": "Wayne",
+        "CardNumber": "4222222222222",
+        "ExpiryDateMonth": 12,
+        "ExpiryDateYear": 2020,
+        "CVV": 123,
+        "CVV2": 0,
+        "Address1": "Crime Alley",
+        "Address2": "",
+        "City": "Gotham",
+        "StateProvince": "NY",
+        "PostalCode": "66666",
+        "Country": "US"
+    },
+    "InvoiceNotes": "Sandbox Test",
+    "IPAddress": "127.0.0.1",
+    "PaymentAmount": 999.0,
+    "OverrideShipping": 1,
+    "ShippingTotal": 8.15,
+    "ShipMethodID": 1007
+}

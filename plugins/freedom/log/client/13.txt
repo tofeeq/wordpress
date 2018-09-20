@@ -1,0 +1,252 @@
+=====================
+new log : 2017-09-13 01:33:12 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118408,
+   'CustomerId' => 'R26107673',
+   'TransactionId' => 1088235,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107673',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 69.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 69.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDFP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107673',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '69.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1088236,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 69.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================

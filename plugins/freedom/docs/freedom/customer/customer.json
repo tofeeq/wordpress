@@ -1,0 +1,39 @@
+{
+  "RepresentativeNumber": "string",
+  "Url": "string",
+  "UserInfo": {
+    "FirstName": "string",
+    "LastName": "string",
+    "Company": "string",
+    "Email": "string",
+    "DateOfBirth": "string",
+    "Gender": "string"
+  },
+  "Password": "string",
+  "BillingAddress": {
+    "Name": "string",
+    "Phone": "string",
+    "Street1": "string",
+    "Street2": "string",
+    "City": "string",
+    "State": "string",
+    "Country": "string",
+    "PostalCode": "string"
+  },
+  "ShippingAddress": {
+    "Name": "string",
+    "Phone": "string",
+    "Street1": "string",
+    "Street2": "string",
+    "City": "string",
+    "State": "string",
+    "Country": "string",
+    "PostalCode": "string"
+  },
+  "ContactDetails": {
+    "Phone1": "string",
+    "Phone2": "string"
+  },
+  "TaxID": "string",
+  "IPAddress": "string"
+}

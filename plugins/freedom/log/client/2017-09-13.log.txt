@@ -1,0 +1,2579 @@
+
+=====================
+new log : 2017-09-13 01:33:12 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118408,
+   'CustomerId' => 'R26107673',
+   'TransactionId' => 1088235,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107673',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 69.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 69.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDFP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107673',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '69.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1088236,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 69.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 01:33:23 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118410,
+   'CustomerId' => 'R26107674',
+   'TransactionId' => 1088242,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107674',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 69.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 69.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDFP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107674',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '69.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1088243,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 69.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 01:34:20 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118412,
+   'CustomerId' => 'R26107675',
+   'TransactionId' => 1088257,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107675',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 69.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 69.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDFP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107675',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '69.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1088258,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 69.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 17:33:01 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118418,
+   'CustomerId' => 'R26107685',
+   'TransactionId' => 1090741,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107685',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 69.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 69.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDFP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107685',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDFP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '69.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1090742,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 69.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 17:35:35 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101233985',
+  'Url' => '101233985',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'Email' => 'cynthia3sunwall@gmail.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Female',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '9143571338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '9143571338',
+  ),
+  'IPAddress' => '74.89.147.35',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118420,
+   'CustomerId' => 'R26107686',
+   'TransactionId' => 1090748,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107686',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDMP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 29.989999999999998436805981327779591083526611328125,
+       'CreditUsed' => 0,
+       'BalanceDue' => 29.989999999999998436805981327779591083526611328125,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101233985',
+    'EmailAddress' => 'cynthia3sunwall@gmail.com',
+    'FirstName' => 'Cynthia',
+    'LastName' => 'Sunwall',
+    'PhoneNumber' => '(914) 357-1338',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDMP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Cynthia Sunwall',
+      'Phone' => '(914) 357-1338',
+      'Street1' => '22 Cornelius Ln',
+      'Street2' => '',
+      'City' => 'Baldwin Place',
+      'State' => 'NY',
+      'Country' => 'USA',
+      'PostalCode' => '10505-1005',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107686',
+  'RepresentativeNumber' => '101233985',
+  'EmailAddress' => 'cynthia3sunwall@gmail.com',
+  'FirstName' => 'Cynthia',
+  'LastName' => 'Sunwall',
+  'PhoneNumber' => '(914) 357-1338',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDMP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Cynthia Sunwall',
+    'Phone' => '(914) 357-1338',
+    'Street1' => '22 Cornelius Ln',
+    'Street2' => '',
+    'City' => 'Baldwin Place',
+    'State' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Cynthia',
+    'LastNameOnCard' => 'Sunwall',
+    'CardNumber' => '5319031000123042',
+    'ExpiryDateMonth' => '04',
+    'ExpiryDateYear' => '2022',
+    'CVV' => '057',
+    'Address1' => '22 Cornelius Ln',
+    'Address2' => '',
+    'City' => 'Baldwin Place',
+    'StateProvince' => 'NY',
+    'Country' => 'USA',
+    'PostalCode' => '10505-1005',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '74.89.147.35',
+  'PaymentAmount' => '29.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'Exception'
+ >> stdClass::__set_state(array(
+   'OrderID' => 0,
+   'FreedomOrderID' => 0,
+   'FreedomOnlineOrderID' => 0,
+   'TransactionId' => 1090749,
+   'Status' => 'ERROR',
+   'ErrorMessage' => 'Process Payment error: The+card+code+is+invalid., total: 29.99, authcode: ',
+   'StatusCode' => 'InternalServerError',
+   'Message' => NULL,
+))
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 21:45:51 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => '101165947',
+  'Url' => '101165947',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Steven',
+    'LastName' => 'Earley',
+    'Email' => 'searley@sbcglobal.net',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '8176811472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '8176811472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '8176811472',
+  ),
+  'IPAddress' => '104.63.194.57',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118429,
+   'CustomerId' => 'R26107695',
+   'TransactionId' => 1091686,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107695',
+  'RepresentativeNumber' => '101165947',
+  'EmailAddress' => 'searley@sbcglobal.net',
+  'FirstName' => 'Steven',
+  'LastName' => 'Earley',
+  'PhoneNumber' => '(817) 681-1472',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDMP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '(817) 681-1472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '(817) 681-1472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Steven',
+    'LastNameOnCard' => 'Earley',
+    'CardNumber' => '5524331613353148',
+    'ExpiryDateMonth' => '07',
+    'ExpiryDateYear' => '2020',
+    'CVV' => '595',
+    'Address1' => '353 Coral Vine Ln',
+    'Address2' => '',
+    'City' => 'Burleson',
+    'StateProvince' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '104.63.194.57',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 29.989999999999998436805981327779591083526611328125,
+       'CreditUsed' => 0,
+       'BalanceDue' => 29.989999999999998436805981327779591083526611328125,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => '101165947',
+    'EmailAddress' => 'searley@sbcglobal.net',
+    'FirstName' => 'Steven',
+    'LastName' => 'Earley',
+    'PhoneNumber' => '(817) 681-1472',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDMP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Steven Earley',
+      'Phone' => '(817) 681-1472',
+      'Street1' => '353 Coral Vine Ln',
+      'Street2' => '',
+      'City' => 'Burleson',
+      'State' => 'TX',
+      'Country' => 'USA',
+      'PostalCode' => '76028-2741',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Steven Earley',
+      'Phone' => '(817) 681-1472',
+      'Street1' => '353 Coral Vine Ln',
+      'Street2' => '',
+      'City' => 'Burleson',
+      'State' => 'TX',
+      'Country' => 'USA',
+      'PostalCode' => '76028-2741',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107695',
+  'RepresentativeNumber' => '101165947',
+  'EmailAddress' => 'searley@sbcglobal.net',
+  'FirstName' => 'Steven',
+  'LastName' => 'Earley',
+  'PhoneNumber' => '(817) 681-1472',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDMP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '(817) 681-1472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '(817) 681-1472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Steven',
+    'LastNameOnCard' => 'Earley',
+    'CardNumber' => '5524331613353148',
+    'ExpiryDateMonth' => '07',
+    'ExpiryDateYear' => '2020',
+    'CVV' => '595',
+    'Address1' => '353 Coral Vine Ln',
+    'Address2' => '',
+    'City' => 'Burleson',
+    'StateProvince' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '104.63.194.57',
+  'PaymentAmount' => '29.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'order response'
+ >> stdClass::__set_state(array(
+   'OrderID' => 14162,
+   'FreedomOrderID' => 27890625,
+   'FreedomOnlineOrderID' => 3615064,
+   'TransactionId' => 1091687,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'Creating autoship profile'
+ >> 'autoship profile request'
+ >> array (
+  'CustomerOrRepNumber' => 'R26107695',
+  'ShipAddress' => 
+  array (
+    'Name' => 'Steven Earley',
+    'Phone' => '(817) 681-1472',
+    'Street1' => '353 Coral Vine Ln',
+    'Street2' => '',
+    'City' => 'Burleson',
+    'State' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+  'Schedule' => 
+  array (
+    'PeriodTypeID' => 1,
+    'StartDate' => '2017-09-13',
+    'StopDate' => '2067-09-13',
+    'NextShipDate' => '2017-10-13',
+    'PeriodDay' => 1,
+  ),
+  'OverrideShipping' => 0,
+  'ShippingTotal' => '0.00',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDMP1MO',
+      'Quantity' => 1,
+    ),
+  ),
+  'Payment' => 
+  array (
+    'FirstNameOnCard' => 'Steven',
+    'LastNameOnCard' => 'Earley',
+    'CardNumber' => '5524331613353148',
+    'ExpiryDateMonth' => '07',
+    'ExpiryDateYear' => '2020',
+    'CVV' => '595',
+    'Address1' => '353 Coral Vine Ln',
+    'Address2' => '',
+    'City' => 'Burleson',
+    'StateProvince' => 'TX',
+    'Country' => 'USA',
+    'PostalCode' => '76028-2741',
+  ),
+)
+ >> 'autoship profile result'
+ >> array (
+  0 => 
+  array (
+    'request' => 
+    array (
+      'CustomerOrRepNumber' => 'R26107695',
+      'ShipAddress' => 
+      array (
+        'Name' => 'Steven Earley',
+        'Phone' => '(817) 681-1472',
+        'Street1' => '353 Coral Vine Ln',
+        'Street2' => '',
+        'City' => 'Burleson',
+        'State' => 'TX',
+        'Country' => 'USA',
+        'PostalCode' => '76028-2741',
+      ),
+      'Schedule' => 
+      array (
+        'PeriodTypeID' => 1,
+        'StartDate' => '2017-09-13',
+        'StopDate' => '2067-09-13',
+        'NextShipDate' => '2017-10-13',
+        'PeriodDay' => 1,
+      ),
+      'OverrideShipping' => 0,
+      'ShippingTotal' => '0.00',
+      'OrderItems' => 
+      array (
+        0 => 
+        array (
+          'ProductID' => 'YSDPROIDMP1MO',
+          'Quantity' => 1,
+        ),
+      ),
+      'Payment' => 
+      array (
+        'FirstNameOnCard' => 'Steven',
+        'LastNameOnCard' => 'Earley',
+        'CardNumber' => '5524331613353148',
+        'ExpiryDateMonth' => '07',
+        'ExpiryDateYear' => '2020',
+        'CVV' => '595',
+        'Address1' => '353 Coral Vine Ln',
+        'Address2' => '',
+        'City' => 'Burleson',
+        'StateProvince' => 'TX',
+        'Country' => 'USA',
+        'PostalCode' => '76028-2741',
+      ),
+    ),
+    'response' => 
+    stdClass::__set_state(array(
+       'ProfileID' => 512001,
+       'TransactionId' => 510160417,
+       'Status' => 'SUCCESS',
+       'ErrorMessage' => NULL,
+       'StatusCode' => 'OK',
+       'Message' => NULL,
+    )),
+  ),
+)
+ >> 'Order response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'OrderID' => 14162,
+     'FreedomOrderID' => 27890625,
+     'FreedomOnlineOrderID' => 3615064,
+     'TransactionId' => 1091687,
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'StatusCode' => 'OK',
+     'Message' => NULL,
+  )),
+  'request' => 
+  array (
+    'RetailOrder' => false,
+    'CustomerID' => 'R26107695',
+    'RepresentativeNumber' => '101165947',
+    'EmailAddress' => 'searley@sbcglobal.net',
+    'FirstName' => 'Steven',
+    'LastName' => 'Earley',
+    'PhoneNumber' => '(817) 681-1472',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDMP1MO',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Steven Earley',
+      'Phone' => '(817) 681-1472',
+      'Street1' => '353 Coral Vine Ln',
+      'Street2' => '',
+      'City' => 'Burleson',
+      'State' => 'TX',
+      'Country' => 'USA',
+      'PostalCode' => '76028-2741',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Steven Earley',
+      'Phone' => '(817) 681-1472',
+      'Street1' => '353 Coral Vine Ln',
+      'Street2' => '',
+      'City' => 'Burleson',
+      'State' => 'TX',
+      'Country' => 'USA',
+      'PostalCode' => '76028-2741',
+    ),
+    'PaymentInfo' => 
+    array (
+      'FirstNameOnCard' => 'Steven',
+      'LastNameOnCard' => 'Earley',
+      'CardNumber' => '5524331613353148',
+      'ExpiryDateMonth' => '07',
+      'ExpiryDateYear' => '2020',
+      'CVV' => '595',
+      'Address1' => '353 Coral Vine Ln',
+      'Address2' => '',
+      'City' => 'Burleson',
+      'StateProvince' => 'TX',
+      'Country' => 'USA',
+      'PostalCode' => '76028-2741',
+    ),
+    'InvoiceNotes' => 'Sales Order',
+    'IPAddress' => '104.63.194.57',
+    'PaymentAmount' => '29.99',
+    'OverrideShipping' => 1,
+    'ShippingTotal' => '0.00',
+    'ShipMethodID' => 2,
+  ),
+  'autoshipresponse' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107695',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Steven Earley',
+          'Phone' => '(817) 681-1472',
+          'Street1' => '353 Coral Vine Ln',
+          'Street2' => '',
+          'City' => 'Burleson',
+          'State' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2017-10-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDMP1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Steven',
+          'LastNameOnCard' => 'Earley',
+          'CardNumber' => '5524331613353148',
+          'ExpiryDateMonth' => '07',
+          'ExpiryDateYear' => '2020',
+          'CVV' => '595',
+          'Address1' => '353 Coral Vine Ln',
+          'Address2' => '',
+          'City' => 'Burleson',
+          'StateProvince' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512001,
+         'TransactionId' => 510160417,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Freedom Result'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '29.99',
+  'CustomerID' => 'R26107695',
+  'OrderID' => 14162,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107695',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Steven Earley',
+          'Phone' => '(817) 681-1472',
+          'Street1' => '353 Coral Vine Ln',
+          'Street2' => '',
+          'City' => 'Burleson',
+          'State' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2017-10-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDMP1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Steven',
+          'LastNameOnCard' => 'Earley',
+          'CardNumber' => '5524331613353148',
+          'ExpiryDateMonth' => '07',
+          'ExpiryDateYear' => '2020',
+          'CVV' => '595',
+          'Address1' => '353 Coral Vine Ln',
+          'Address2' => '',
+          'City' => 'Burleson',
+          'StateProvince' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512001,
+         'TransactionId' => 510160417,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Trigger hook for other freedom attached plugins like ocenture'
+ >> 'Freedom Result after hook'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '29.99',
+  'CustomerID' => 'R26107695',
+  'OrderID' => 14162,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107695',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Steven Earley',
+          'Phone' => '(817) 681-1472',
+          'Street1' => '353 Coral Vine Ln',
+          'Street2' => '',
+          'City' => 'Burleson',
+          'State' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 1,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2017-10-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDMP1MO',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Steven',
+          'LastNameOnCard' => 'Earley',
+          'CardNumber' => '5524331613353148',
+          'ExpiryDateMonth' => '07',
+          'ExpiryDateYear' => '2020',
+          'CVV' => '595',
+          'Address1' => '353 Coral Vine Ln',
+          'Address2' => '',
+          'City' => 'Burleson',
+          'StateProvince' => 'TX',
+          'Country' => 'USA',
+          'PostalCode' => '76028-2741',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512001,
+         'TransactionId' => 510160417,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+  'plugin' => 
+  array (
+    'ocenture' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'Status' => 'Account Created',
+         'ClientMemberID' => 'R26107695',
+         'MembershipID' => 215864506,
+         'ProductCode' => 'YP8387',
+      )),
+    ),
+  ),
+)
+=====================
+ Log Closed 
+=====================
+
+=====================
+new log : 2017-09-13 22:43:14 
+================
+
+ >> 'customer request'
+ >> array (
+  'RepresentativeNumber' => 'L12558',
+  'Url' => 'L12558',
+  'UserInfo' => 
+  array (
+    'FirstName' => 'Vivienne',
+    'LastName' => 'Talbott',
+    'Email' => 'dtalbott@doublemuleshoeranch.com',
+    'DateOfBirth' => '1970-01-01',
+    'Gender' => 'Male',
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '3077425629',
+    'Street1' => '14 Fox Creek Road',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '3077425629',
+    'Street1' => '14 Fox Creek Rd',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-9750',
+  ),
+  'ContactDetails' => 
+  array (
+    'Phone1' => '3077425629',
+  ),
+  'IPAddress' => '38.75.208.48',
+)
+ >> 'create customer live request'
+ >> 'customer response'
+ >> stdClass::__set_state(array(
+   'OnlineCustomerId' => 118432,
+   'CustomerId' => 'R26107696',
+   'TransactionId' => 1091913,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'customer created'
+ >> 'shipping request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107696',
+  'RepresentativeNumber' => 'L12558',
+  'EmailAddress' => 'dtalbott@doublemuleshoeranch.com',
+  'FirstName' => 'Vivienne',
+  'LastName' => 'Talbott',
+  'PhoneNumber' => '(307) 742-5629',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '(307) 742-5629',
+    'Street1' => '14 Fox Creek Road',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '(307) 742-5629',
+    'Street1' => '14 Fox Creek Rd',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-9750',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Vivienne',
+    'LastNameOnCard' => 'Talbott',
+    'CardNumber' => '4147202077854923',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '20',
+    'CVV' => '965',
+    'Address1' => '14 Fox Creek Road',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '38.75.208.48',
+  'PaymentAmount' => 0,
+  'OverrideShipping' => 1,
+  'ShippingTotal' => 0,
+  'ShipMethodID' => 2,
+)
+ >> 'shipping response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'Result' => 
+    stdClass::__set_state(array(
+       'ShippingTotal' => 0,
+       'TaxTotal' => 0,
+       'HandlingFee' => 0,
+       'OrderTotal' => 99.9899999999999948840923025272786617279052734375,
+       'CreditUsed' => 0,
+       'BalanceDue' => 99.9899999999999948840923025272786617279052734375,
+    )),
+     'StatusCode' => 'OK',
+     'TransactionId' => 0,
+  )),
+  'request' => 
+  array (
+    'CustomerID' => '',
+    'RepresentativeNumber' => 'L12558',
+    'EmailAddress' => 'dtalbott@doublemuleshoeranch.com',
+    'FirstName' => 'Vivienne',
+    'LastName' => 'Talbott',
+    'PhoneNumber' => '(307) 742-5629',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1YR',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Vivienne Talbott',
+      'Phone' => '(307) 742-5629',
+      'Street1' => '14 Fox Creek Road',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Vivienne Talbott',
+      'Phone' => '(307) 742-5629',
+      'Street1' => '14 Fox Creek Rd',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070-9750',
+    ),
+    'ShipMethodID' => 2,
+  ),
+)
+ >> 'shipping response success'
+ >> 'order request'
+ >> array (
+  'RetailOrder' => false,
+  'CustomerID' => 'R26107696',
+  'RepresentativeNumber' => 'L12558',
+  'EmailAddress' => 'dtalbott@doublemuleshoeranch.com',
+  'FirstName' => 'Vivienne',
+  'LastName' => 'Talbott',
+  'PhoneNumber' => '(307) 742-5629',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'BillingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '(307) 742-5629',
+    'Street1' => '14 Fox Creek Road',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'ShippingAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '(307) 742-5629',
+    'Street1' => '14 Fox Creek Rd',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-9750',
+  ),
+  'PaymentInfo' => 
+  array (
+    'FirstNameOnCard' => 'Vivienne',
+    'LastNameOnCard' => 'Talbott',
+    'CardNumber' => '4147202077854923',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '20',
+    'CVV' => '965',
+    'Address1' => '14 Fox Creek Road',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+  'InvoiceNotes' => 'Sales Order',
+  'IPAddress' => '38.75.208.48',
+  'PaymentAmount' => '99.99',
+  'OverrideShipping' => 1,
+  'ShippingTotal' => '0.00',
+  'ShipMethodID' => 2,
+)
+ >> 'order response'
+ >> stdClass::__set_state(array(
+   'OrderID' => 14164,
+   'FreedomOrderID' => 27890755,
+   'FreedomOnlineOrderID' => 3615157,
+   'TransactionId' => 1091914,
+   'Status' => 'SUCCESS',
+   'ErrorMessage' => '',
+   'StatusCode' => 'OK',
+   'Message' => NULL,
+))
+ >> 'Creating autoship profile'
+ >> 'autoship profile request'
+ >> array (
+  'CustomerOrRepNumber' => 'R26107696',
+  'ShipAddress' => 
+  array (
+    'Name' => 'Vivienne Talbott',
+    'Phone' => '(307) 742-5629',
+    'Street1' => '14 Fox Creek Rd',
+    'Street2' => '',
+    'City' => 'Laramie',
+    'State' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070-9750',
+  ),
+  'Schedule' => 
+  array (
+    'PeriodTypeID' => 4,
+    'StartDate' => '2017-09-13',
+    'StopDate' => '2067-09-13',
+    'NextShipDate' => '2018-09-13',
+    'PeriodDay' => 1,
+  ),
+  'OverrideShipping' => 0,
+  'ShippingTotal' => '0.00',
+  'OrderItems' => 
+  array (
+    0 => 
+    array (
+      'ProductID' => 'YSDPROIDM1YR',
+      'Quantity' => 1,
+    ),
+  ),
+  'Payment' => 
+  array (
+    'FirstNameOnCard' => 'Vivienne',
+    'LastNameOnCard' => 'Talbott',
+    'CardNumber' => '4147202077854923',
+    'ExpiryDateMonth' => '02',
+    'ExpiryDateYear' => '20',
+    'CVV' => '965',
+    'Address1' => '14 Fox Creek Road',
+    'Address2' => '',
+    'City' => 'Laramie',
+    'StateProvince' => 'WY',
+    'Country' => 'USA',
+    'PostalCode' => '82070',
+  ),
+)
+ >> 'autoship profile result'
+ >> array (
+  0 => 
+  array (
+    'request' => 
+    array (
+      'CustomerOrRepNumber' => 'R26107696',
+      'ShipAddress' => 
+      array (
+        'Name' => 'Vivienne Talbott',
+        'Phone' => '(307) 742-5629',
+        'Street1' => '14 Fox Creek Rd',
+        'Street2' => '',
+        'City' => 'Laramie',
+        'State' => 'WY',
+        'Country' => 'USA',
+        'PostalCode' => '82070-9750',
+      ),
+      'Schedule' => 
+      array (
+        'PeriodTypeID' => 4,
+        'StartDate' => '2017-09-13',
+        'StopDate' => '2067-09-13',
+        'NextShipDate' => '2018-09-13',
+        'PeriodDay' => 1,
+      ),
+      'OverrideShipping' => 0,
+      'ShippingTotal' => '0.00',
+      'OrderItems' => 
+      array (
+        0 => 
+        array (
+          'ProductID' => 'YSDPROIDM1YR',
+          'Quantity' => 1,
+        ),
+      ),
+      'Payment' => 
+      array (
+        'FirstNameOnCard' => 'Vivienne',
+        'LastNameOnCard' => 'Talbott',
+        'CardNumber' => '4147202077854923',
+        'ExpiryDateMonth' => '02',
+        'ExpiryDateYear' => '20',
+        'CVV' => '965',
+        'Address1' => '14 Fox Creek Road',
+        'Address2' => '',
+        'City' => 'Laramie',
+        'StateProvince' => 'WY',
+        'Country' => 'USA',
+        'PostalCode' => '82070',
+      ),
+    ),
+    'response' => 
+    stdClass::__set_state(array(
+       'ProfileID' => 512009,
+       'TransactionId' => 510186666,
+       'Status' => 'SUCCESS',
+       'ErrorMessage' => NULL,
+       'StatusCode' => 'OK',
+       'Message' => NULL,
+    )),
+  ),
+)
+ >> 'Order response'
+ >> array (
+  'response' => 
+  stdClass::__set_state(array(
+     'OrderID' => 14164,
+     'FreedomOrderID' => 27890755,
+     'FreedomOnlineOrderID' => 3615157,
+     'TransactionId' => 1091914,
+     'Status' => 'SUCCESS',
+     'ErrorMessage' => '',
+     'StatusCode' => 'OK',
+     'Message' => NULL,
+  )),
+  'request' => 
+  array (
+    'RetailOrder' => false,
+    'CustomerID' => 'R26107696',
+    'RepresentativeNumber' => 'L12558',
+    'EmailAddress' => 'dtalbott@doublemuleshoeranch.com',
+    'FirstName' => 'Vivienne',
+    'LastName' => 'Talbott',
+    'PhoneNumber' => '(307) 742-5629',
+    'OrderItems' => 
+    array (
+      0 => 
+      array (
+        'ProductID' => 'YSDPROIDM1YR',
+        'Quantity' => 1,
+      ),
+    ),
+    'BillingAddress' => 
+    array (
+      'Name' => 'Vivienne Talbott',
+      'Phone' => '(307) 742-5629',
+      'Street1' => '14 Fox Creek Road',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'ShippingAddress' => 
+    array (
+      'Name' => 'Vivienne Talbott',
+      'Phone' => '(307) 742-5629',
+      'Street1' => '14 Fox Creek Rd',
+      'Street2' => '',
+      'City' => 'Laramie',
+      'State' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070-9750',
+    ),
+    'PaymentInfo' => 
+    array (
+      'FirstNameOnCard' => 'Vivienne',
+      'LastNameOnCard' => 'Talbott',
+      'CardNumber' => '4147202077854923',
+      'ExpiryDateMonth' => '02',
+      'ExpiryDateYear' => '20',
+      'CVV' => '965',
+      'Address1' => '14 Fox Creek Road',
+      'Address2' => '',
+      'City' => 'Laramie',
+      'StateProvince' => 'WY',
+      'Country' => 'USA',
+      'PostalCode' => '82070',
+    ),
+    'InvoiceNotes' => 'Sales Order',
+    'IPAddress' => '38.75.208.48',
+    'PaymentAmount' => '99.99',
+    'OverrideShipping' => 1,
+    'ShippingTotal' => '0.00',
+    'ShipMethodID' => 2,
+  ),
+  'autoshipresponse' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107696',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Vivienne Talbott',
+          'Phone' => '(307) 742-5629',
+          'Street1' => '14 Fox Creek Rd',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-9750',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2018-09-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Vivienne',
+          'LastNameOnCard' => 'Talbott',
+          'CardNumber' => '4147202077854923',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '20',
+          'CVV' => '965',
+          'Address1' => '14 Fox Creek Road',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512009,
+         'TransactionId' => 510186666,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Freedom Result'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '99.99',
+  'CustomerID' => 'R26107696',
+  'OrderID' => 14164,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107696',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Vivienne Talbott',
+          'Phone' => '(307) 742-5629',
+          'Street1' => '14 Fox Creek Rd',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-9750',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2018-09-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Vivienne',
+          'LastNameOnCard' => 'Talbott',
+          'CardNumber' => '4147202077854923',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '20',
+          'CVV' => '965',
+          'Address1' => '14 Fox Creek Road',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512009,
+         'TransactionId' => 510186666,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+)
+ >> 'Trigger hook for other freedom attached plugins like ocenture'
+ >> 'Freedom Result after hook'
+ >> array (
+  'ShippingTotal' => '0.00',
+  'OrderTotal' => '99.99',
+  'CustomerID' => 'R26107696',
+  'OrderID' => 14164,
+  'AutoShipProfile' => 
+  array (
+    0 => 
+    array (
+      'request' => 
+      array (
+        'CustomerOrRepNumber' => 'R26107696',
+        'ShipAddress' => 
+        array (
+          'Name' => 'Vivienne Talbott',
+          'Phone' => '(307) 742-5629',
+          'Street1' => '14 Fox Creek Rd',
+          'Street2' => '',
+          'City' => 'Laramie',
+          'State' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070-9750',
+        ),
+        'Schedule' => 
+        array (
+          'PeriodTypeID' => 4,
+          'StartDate' => '2017-09-13',
+          'StopDate' => '2067-09-13',
+          'NextShipDate' => '2018-09-13',
+          'PeriodDay' => 1,
+        ),
+        'OverrideShipping' => 0,
+        'ShippingTotal' => '0.00',
+        'OrderItems' => 
+        array (
+          0 => 
+          array (
+            'ProductID' => 'YSDPROIDM1YR',
+            'Quantity' => 1,
+          ),
+        ),
+        'Payment' => 
+        array (
+          'FirstNameOnCard' => 'Vivienne',
+          'LastNameOnCard' => 'Talbott',
+          'CardNumber' => '4147202077854923',
+          'ExpiryDateMonth' => '02',
+          'ExpiryDateYear' => '20',
+          'CVV' => '965',
+          'Address1' => '14 Fox Creek Road',
+          'Address2' => '',
+          'City' => 'Laramie',
+          'StateProvince' => 'WY',
+          'Country' => 'USA',
+          'PostalCode' => '82070',
+        ),
+      ),
+      'response' => 
+      stdClass::__set_state(array(
+         'ProfileID' => 512009,
+         'TransactionId' => 510186666,
+         'Status' => 'SUCCESS',
+         'ErrorMessage' => NULL,
+         'StatusCode' => 'OK',
+         'Message' => NULL,
+      )),
+    ),
+  ),
+  'plugin' => 
+  array (
+    'ocenture' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'Status' => 'Account Created',
+         'ClientMemberID' => 'R26107696',
+         'MembershipID' => 215864534,
+         'ProductCode' => 'YP8389',
+      )),
+    ),
+  ),
+)
+=====================
+ Log Closed 
+=====================
